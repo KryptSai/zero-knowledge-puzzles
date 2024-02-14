@@ -14,7 +14,7 @@ template Mul() {
     c <== a * b ;
 }
 
-component main {public [a]} = Mul();
+component main = Mul();
 
 /* INPUT ={
     "a":32,
